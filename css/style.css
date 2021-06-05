@@ -1,0 +1,159 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width:100%;
+    max-width:1170px;
+    margin: 0 auto;
+}
+
+.expert {
+    background-color: #F1F8FF;
+    padding-top: 100px;
+    text-align: center;
+    height: 1193px;
+}
+
+.expert__title { 
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 120px;
+    color: #409AFF;
+     
+}
+
+.expert__wrapper {
+    width: 100%;
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.expert__card {
+    width:33%;
+
+}
+
+.image__wrapper {
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    border: 1px solid #BAC3CC;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    
+}
+
+.expert__subtitle{ 
+    font-size: 24px;
+    font-weight: 700;
+    color: #3677FD;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.expert__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    padding:0 30px;
+}
+
+.image__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==========Works=============== */
+
+.works { 
+    padding-top: 80px;
+}
+
+.works__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 104px;
+}
+
+.works__wrapper {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-bottom: 194px;
+}
+
+.works__card {
+    width: 360px;
+    height: 270px;
+    background-color:#F4F4F4 ;
+}
+
+/* ========== Clients =============== */
+
+.clients {
+    background: #F1F8FF;
+    padding-top: 80px;
+    padding-bottom: 54px;
+}
+
+.clients__title {
+    font-size: 50px;
+    font-weight: 300;
+    color:#3695FF;
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+.company__wrapper {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ========== Footer =============== */
+
+.footer {
+    background-color: #409AFF;
+    padding: 75px 0;
+}
+
+.footer__wrapper {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text span {
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer__text-bold {
+    font-weight: 700;
+}
+
+.footer__btn {
+    width: 206px;
+    height: 58px;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#409AFF;
+}
